@@ -56,7 +56,7 @@ begin
                         state <= ST_LOGIC;
                     end if;
                 elsif state = ST_LOGIC then
-                    case status is
+                    case status(1 downto 0) is
                         when "00" =>
                             state <= ST_IDLE;
                         when "01" =>
