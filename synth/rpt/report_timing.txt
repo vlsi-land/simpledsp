@@ -1,0 +1,70 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : simpledsp
+Version: C-2009.06-SP5
+Date   : Tue Nov 10 23:21:40 2015
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: cp/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dp/arith_reg/data_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  cp/state_reg[1]/CLK (DFFPOSX1)                          0.00       0.00 r
+  cp/state_reg[1]/Q (DFFPOSX1)                            0.08       0.08 r
+  U3/Y (INVX2)                                            0.03       0.11 f
+  cp/U20/Y (AOI22X1)                                      0.05       0.15 r
+  U47/Y (BUFX2)                                           0.05       0.20 r
+  cp/U17/Y (NAND2X1)                                      0.02       0.22 f
+  U59/Y (BUFX2)                                           0.03       0.25 f
+  cp/U16/Y (OAI21X1)                                      0.07       0.32 r
+  U10/Y (INVX2)                                           0.02       0.34 f
+  dp/arith/U6/Y (AND2X2)                                  0.06       0.39 f
+  U6/Y (AND2X1)                                           0.03       0.42 f
+  U56/Y (INVX1)                                           0.00       0.43 r
+  U33/Y (AND2X2)                                          0.03       0.46 r
+  U34/Y (INVX1)                                           0.02       0.48 f
+  dp/arith/U12/Y (NOR3X1)                                 0.05       0.53 r
+  dp/arith/U9/Y (NAND3X1)                                 0.02       0.55 f
+  U42/Y (BUFX2)                                           0.03       0.58 f
+  U36/Y (OR2X2)                                           0.04       0.62 f
+  U37/Y (INVX1)                                           0.00       0.62 r
+  U61/Y (AND2X2)                                          0.03       0.65 r
+  U60/Y (INVX1)                                           0.01       0.66 f
+  cp/U18/Y (OAI21X1)                                      0.02       0.69 r
+  U24/Y (OR2X2)                                           0.06       0.74 r
+  U5/Y (INVX4)                                            0.03       0.77 f
+  dp/arith/U18/Y (AOI22X1)                                0.03       0.80 r
+  U26/Y (BUFX2)                                           0.03       0.84 r
+  U31/Y (AND2X2)                                          0.03       0.87 r
+  U32/Y (INVX1)                                           0.03       0.90 f
+  U82/Y (AND2X1)                                          0.04       0.94 f
+  dp/arith_reg/data_reg[3]/D (DFFPOSX1)                   0.00       0.94 f
+  data arrival time                                                  0.94
+
+  clock clk (rise edge)                                   1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  dp/arith_reg/data_reg[3]/CLK (DFFPOSX1)                 0.00       1.00 r
+  library setup time                                     -0.06       0.94
+  data required time                                                 0.94
+  --------------------------------------------------------------------------
+  data required time                                                 0.94
+  data arrival time                                                 -0.94
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

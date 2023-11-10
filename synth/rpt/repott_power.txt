@@ -1,0 +1,40 @@
+Loading db file '/mnt/hgfs/WDIR/FPDK45S/osu_soc/lib/files/gscl45nm.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : simpledsp
+Version: C-2009.06-SP5
+Date   : Tue Nov 10 23:21:41 2015
+****************************************
+
+
+Library(s) Used:
+
+    gscl45nm (File: /mnt/hgfs/WDIR/FPDK45S/osu_soc/lib/files/gscl45nm.db)
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 674.1964 uW   (81%)
+  Net Switching Power  = 157.3420 uW   (19%)
+                         ---------
+Total Dynamic Power    = 831.5383 uW  (100%)
+
+Cell Leakage Power     =   3.7207 uW
+
+1

@@ -1,0 +1,27 @@
+ 
+****************************************
+Report : resources
+Design : simpledsp
+Version: C-2009.06-SP5
+Date   : Tue Nov 10 22:40:06 2015
+****************************************
+
+Resource Sharing Report 
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| dp/arith/r306           |            |               |                      |
+|          | DW01_add     | width=5    |               | dp/arith/add_37_2    |
+|          |              |            |               | dp/arith/add_37_3    |
+| dp/arith/r310           |            |               |                      |
+|          | DW01_add     | width=5    |               | dp/arith/add_37      |
+| dp/arith/r312           |            |               |                      |
+|          | DW01_sub     | width=5    |               | dp/arith/sub_37      |
+===============================================================================
+
+
+No implementations to report
+
+No multiplexors to report

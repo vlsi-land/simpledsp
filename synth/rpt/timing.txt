@@ -1,0 +1,121 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -input_pins
+        -nets
+        -max_paths 1
+        -transition_time
+        -sort_by group
+Design : simpledsp
+Version: C-2009.06-SP5
+Date   : Tue Nov 10 22:48:02 2015
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: cp/state_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dpu_status[3]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                        Fanout     Trans      Incr       Path
+  ---------------------------------------------------------------------
+  clock clk (rise edge)                                 0          0
+  clock network delay (ideal)                           0          0
+  cp/state_reg[1]/CLK (DFFPOSX1)              0         0          0 r
+  cp/state_reg[1]/Q (DFFPOSX1)                0         0          0 f
+  cp/state[1] (net)              3                      0          0 f
+  U119/B (AND2X2)                             0         0          0 f
+  U119/Y (AND2X2)                             0         0          0 f
+  n218 (net)                     2                      0          0 f
+  U107/A (INVX4)                              0         0          0 f
+  U107/Y (INVX4)                              0         0          0 r
+  n219 (net)                     4                      0          0 r
+  U106/A (AND2X1)                             0         0          0 r
+  U106/Y (AND2X1)                             0         0          0 r
+  n163 (net)                     1                      0          0 r
+  U99/A (INVX1)                               0         0          0 r
+  U99/Y (INVX1)                               0         0          0 f
+  n209 (net)                     2                      0          0 f
+  cp/U16/A (OAI21X1)                          0         0          0 f
+  cp/U16/Y (OAI21X1)                          0         0          0 r
+  op_arith[1] (net)              7                      0          0 r
+  U71/A (INVX1)                               0         0          0 r
+  U71/Y (INVX1)                               0         0          0 f
+  n4 (net)                       1                      0          0 f
+  dp/arith/U6/B (AND2X2)                      0         0          0 f
+  dp/arith/U6/Y (AND2X2)                      0         0          0 f
+  dp/arith/n10 (net)             5                      0          0 f
+  U147/B (AND2X2)                             0         0          0 f
+  U147/Y (AND2X2)                             0         0          0 f
+  n190 (net)                     1                      0          0 f
+  U148/A (INVX1)                              0         0          0 f
+  U148/Y (INVX1)                              0         0          0 r
+  n191 (net)                     1                      0          0 r
+  U132/B (AND2X2)                             0         0          0 r
+  U132/Y (AND2X2)                             0         0          0 r
+  n174 (net)                     2                      0          0 r
+  U133/A (INVX1)                              0         0          0 r
+  U133/Y (INVX1)                              0         0          0 f
+  n175 (net)                     1                      0          0 f
+  dp/arith/U12/A (NOR3X1)                     0         0          0 f
+  dp/arith/U12/Y (NOR3X1)                     0         0          1 r
+  dp/arith/n7 (net)              1                      0          1 r
+  dp/arith/U9/A (NAND3X1)                     0         0          1 r
+  dp/arith/U9/Y (NAND3X1)                     0         0          1 f
+  dp/arith/n6 (net)              1                      0          1 f
+  U42/A (BUFX2)                               0         0          1 f
+  U42/Y (BUFX2)                               0         0          1 f
+  n25 (net)                      1                      0          1 f
+  U36/A (OR2X2)                               0         0          1 f
+  U36/Y (OR2X2)                               0         0          1 f
+  n19 (net)                      1                      0          1 f
+  U37/A (INVX1)                               0         0          1 f
+  U37/Y (INVX1)                               0         0          1 r
+  dpu_status[2] (net)            2                      0          1 r
+  U61/A (AND2X2)                              0         0          1 r
+  U61/Y (AND2X2)                              0         0          1 r
+  n48 (net)                      1                      0          1 r
+  U60/A (INVX1)                               0         0          1 r
+  U60/Y (INVX1)                               0         0          1 f
+  n47 (net)                      1                      0          1 f
+  cp/U18/C (OAI21X1)                          0         0          1 f
+  cp/U18/Y (OAI21X1)                          0         0          1 r
+  op_arith[0] (net)              2                      0          1 r
+  U24/B (OR2X2)                               0         0          1 r
+  U24/Y (OR2X2)                               0         0          1 r
+  n43 (net)                      2                      0          1 r
+  U5/A (INVX4)                                0         0          1 r
+  U5/Y (INVX4)                                0         0          1 f
+  n68 (net)                      4                      0          1 f
+  dp/arith/U18/C (AOI22X1)                    0         0          1 f
+  dp/arith/U18/Y (AOI22X1)                    0         0          1 r
+  dp/arith/n14 (net)             1                      0          1 r
+  U26/A (BUFX2)                               0         0          1 r
+  U26/Y (BUFX2)                               0         0          1 r
+  n7 (net)                       1                      0          1 r
+  U31/A (AND2X2)                              0         0          1 r
+  U31/Y (AND2X2)                              0         0          1 r
+  n14 (net)                      1                      0          1 r
+  U32/A (INVX1)                               0         0          1 r
+  U32/Y (INVX1)                               0         0          1 f
+  dpu_status[3] (net)            4                      0          1 f
+  dpu_status[3] (out)                         0         0          1 f
+  data arrival time                                                1
+
+  clock clk (rise edge)                                 1          1
+  clock network delay (ideal)                           0          1
+  output external delay                                 0          1
+  data required time                                               1
+  ---------------------------------------------------------------------
+  data required time                                               1
+  data arrival time                                               -1
+  ---------------------------------------------------------------------
+  slack (MET)                                                      0
+
+

@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : area
+Design : simpledsp
+Version: C-2009.06-SP5
+Date   : Tue Nov 10 23:21:41 2015
+****************************************
+
+Library(s) Used:
+
+    gscl45nm (File: /mnt/hgfs/WDIR/FPDK45S/osu_soc/lib/files/gscl45nm.db)
+
+Number of ports:               28
+Number of nets:               230
+Number of cells:              201
+Number of references:          22
+
+Combinational area:        477.747396
+Noncombinational area:     207.430595
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:           685.177991
+Total area:                 undefined
+1

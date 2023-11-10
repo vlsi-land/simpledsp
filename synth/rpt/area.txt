@@ -1,0 +1,68 @@
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	cp/U17/A cp/U17/Y U59/A U59/Y cp/U16/C cp/U16/Y U24/A U24/Y U5/A U5/Y dp/arith/U18/C dp/arith/U18/Y U26/A U26/Y U31/A U31/Y U32/A U32/Y 
+Information: Timing loop detected. (OPT-150)
+	U58/A U58/Y dp/arith/U21/C dp/arith/U21/Y U123/A U123/Y U132/A U132/Y U133/A U133/Y dp/arith/U12/A dp/arith/U12/Y dp/arith/U9/A dp/arith/U9/Y U42/A U42/Y U36/A U36/Y U37/A U37/Y U61/A U61/Y U60/A U60/Y cp/U18/C cp/U18/Y U24/B U24/Y 
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'cp/U17'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C' and 'Y' on cell 'dp/arith/U21'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'dp/arith/U6'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Y' on cell 'dp/arith/U12'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C' and 'Y' on cell 'dp/arith/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C' and 'Y' on cell 'dp/arith/U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C' and 'Y' on cell 'dp/arith/U24'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'dp/logic/U2'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Y' on cell 'dp/logic/U4'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'dp/logic/U2'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'dp/logic/U2'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'dp/logic/U16'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C' and 'Y' on cell 'dp/logic/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'dp/logic/U2'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'dp/logic/U11'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C' and 'Y' on cell 'dp/logic/U10'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'dp/logic/U2'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C' and 'Y' on cell 'cp/U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'C' and 'Y' on cell 'dp/logic/U20'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'dp/logic/U21'
+         to break a timing loop. (OPT-314)
+ 
+****************************************
+Report : area
+Design : simpledsp
+Version: C-2009.06-SP5
+Date   : Tue Nov 10 22:43:48 2015
+****************************************
+
+Library(s) Used:
+
+    gscl45nm (File: /mnt/hgfs/WDIR/FPDK45S/osu_soc/lib/files/gscl45nm.db)
+
+Number of ports:               28
+Number of nets:               242
+Number of cells:              222
+Number of references:          19
+
+Combinational area:        483.848289
+Noncombinational area:     207.430595
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:           691.278885
+Total area:                 undefined
