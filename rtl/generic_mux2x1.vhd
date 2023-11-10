@@ -1,19 +1,17 @@
----------------------------------------
--- TinyCore for ASIC Evaluation
--- Amirkabir University of Technology
+-----------------------------------------------------------
+--  SimpleDSP for ASIC Evaluation
+-----------------------------------------------------------
+-- Amirkabir University of Technology (Tehran Polytechnic)
 -- Computer Engineering Department
 -- VLSI-CAD Research Lab
--- Ali Mohammadpour
----------------------------------------
---
--- Generic Arithmetic Logic Unit
--- Parameters:
---    WIDTH: Inputs and Outputs Width
----------------------------------------
+-- Designed by Ali Mohammadpour
+-- 
+-- All rights reserved, /AUT/CEVLSICAD
+-- https://github.com/vlsiland/simpledsp
+-----------------------------------------------------------
 
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.std_logic_signed.all;
 
 entity generic_mux2x1 is
  
@@ -27,7 +25,7 @@ entity generic_mux2x1 is
 
 end entity;
 
-architecture arch of arith_unit is 
+architecture arch of generic_mux2x1 is 
 
 begin
     

@@ -1,15 +1,14 @@
----------------------------------------
--- TinyCore for ASIC Evaluation
--- Amirkabir University of Technology
--- Computer Engineering Department
--- VLSI-CAD Research Lab
--- Ali Mohammadpour
----------------------------------------
---
--- Generic Arithmetic Logic Unit
--- Parameters:
---    WIDTH: Inputs and Outputs Width
----------------------------------------
+-----------------------------------------------------------
+--  SimpleDSP for ASIC Evaluation                          
+-----------------------------------------------------------
+-- Amirkabir University of Technology (Tehran Polytechnic) 
+-- Computer Engineering Department                         
+-- VLSI-CAD Research Lab                                   
+-- Designed by Ali Mohammadpour                            
+--                                                         
+-- All rights reserved, /AUT/CEVLSICAD                     
+-- https://github.com/vlsiland/simpledsp                   
+-----------------------------------------------------------
 
 library ieee;
 use ieee.std_logic_1164.all;
